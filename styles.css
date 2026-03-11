@@ -238,7 +238,7 @@ a {
 }
 
 .logo-img {
-  height: 100px;
+  height: 120px;
   width: auto;
   object-fit: contain;
   filter: brightness(0) invert(1) drop-shadow(0 2px 10px rgba(var(--green-rgb), 0.5));
@@ -410,35 +410,36 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 12px;
   background: rgba(10, 15, 30, 0.5);
   backdrop-filter: blur(16px);
   border: 1px solid var(--border);
   border-radius: 16px;
-  padding: 16px 24px;
-  flex-wrap: wrap;
+  padding: 12px 20px;
+  flex-wrap: nowrap;
 }
 
 .hero-stat {
   text-align: center;
+  padding: 0 8px;
 }
 
 .stat-number {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 800;
   color: var(--primary-green-light);
 }
 
 .stat-num-plus {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--primary-green-light);
 }
 
 .stat-label {
   display: block;
-  font-size: 10px;
+  font-size: 9px;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -447,7 +448,7 @@ a {
 
 .stat-divider {
   width: 1px;
-  height: 48px;
+  height: 40px;
   background: var(--border);
 }
 
