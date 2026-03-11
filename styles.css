@@ -410,12 +410,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 32px;
+  gap: 20px;
   background: rgba(10, 15, 30, 0.5);
   backdrop-filter: blur(16px);
   border: 1px solid var(--border);
   border-radius: 16px;
-  padding: 24px 32px;
+  padding: 16px 24px;
   flex-wrap: wrap;
 }
 
@@ -425,20 +425,20 @@ a {
 
 .stat-number {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 800;
   color: var(--primary-green-light);
 }
 
 .stat-num-plus {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   color: var(--primary-green-light);
 }
 
 .stat-label {
   display: block;
-  font-size: 12px;
+  font-size: 10px;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -2512,26 +2512,11 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 12px;
-    padding: 12px;
   }
 
   .hero-stat {
     flex: 0 0 45%;
-    min-width: 100px;
-    padding: 4px;
-  }
-
-  .stat-number {
-    font-size: 22px;
-  }
-
-  .stat-num-plus {
-    font-size: 14px;
-  }
-
-  .stat-label {
-    font-size: 9px;
+    min-width: 120px;
   }
 
   .stat-divider {
