@@ -2509,12 +2509,18 @@ a {
 
 @media (max-width: 479px) {
   .hero-stats {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .hero-stat {
+    flex: 0 0 45%;
+    min-width: 120px;
   }
 
   .stat-divider {
-    width: 60px;
-    height: 1px;
+    display: none;
   }
 
   .trust-items {
